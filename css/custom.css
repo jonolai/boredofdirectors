@@ -1,0 +1,84 @@
+/* 
+Project Name: Bored of Directors
+Author: Jonathan Lai  https://twitter.com/jonathanlai
+Developed for the people in Brisbane, Australia, July 2020
+*/
+
+
+/*----
+LAYOUT
+----*/
+
+#container {
+	padding: 5%;
+}
+
+#header {
+	padding: 5%;
+}
+
+#purpose {
+	padding: 5%;
+}
+
+#results {
+	padding: 5%;
+}
+
+#main {
+	padding: 5%;
+}
+ 
+#table {
+	text-align: center;
+}
+
+#footer {
+	padding: 5%;
+}
+
+
+/*--------------------
+TABLE-RESPONSIVE-STACK
+--------------------*/
+
+.table-responsive-stack tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.table-responsive-stack td,
+.table-responsive-stack th {
+   display:block;
+/*      
+   flex-grow | flex-shrink | flex-basis   */
+   -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+/*
+.table-responsive-stack .table-responsive-stack-thead {
+   font-weight: bold;
+}
+*/
+
+@media screen and (max-width: 768px) {
+   .table-responsive-stack tr {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      display:block;
+      
+   }
+   /*  IE9 FIX   */
+   .table-responsive-stack td {
+      float: left\9;
+      width:100%;
+   }
+}
