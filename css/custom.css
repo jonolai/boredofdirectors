@@ -46,7 +46,7 @@ Developed for the people in Brisbane, Australia, July 2020
   width: 150px;
 }
 
-.hover-overlay {
+.hover-overlay-odd {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -63,7 +63,29 @@ Developed for the people in Brisbane, Australia, July 2020
   padding-top: 7%;
 }
 
-.inner:hover .hover-overlay {
+.hover-overlay-even {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  color: #F9F3EC;
+  text-align: center;
+  background-color: #B31E1A;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s ease;
+  margin: 3%;
+  padding-top: 7%;
+}
+
+.inner:hover .hover-overlay-odd {
+  visibility: visible;  
+  opacity: 1;
+}
+
+.inner:hover .hover-overlay-even {
   visibility: visible;  
   opacity: 1;
 }
