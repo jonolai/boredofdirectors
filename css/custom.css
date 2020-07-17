@@ -32,7 +32,7 @@ Developed for the people in Brisbane, Australia, July 2020
 
 .footer-section {
   padding: 2%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 .bottom-buffer {
@@ -53,16 +53,58 @@ Developed for the people in Brisbane, Australia, July 2020
   left: 0;
   right: 0;
   font-size: 14px;
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #F9F3EC;
+  text-align: center;
+  background-color: #0E2A55;
   visibility: hidden;
   opacity: 0;
   transition: 1s ease;
-  text-align: center;
-  padding: 3%;
+  margin: 3%;
+  padding-top: 7%;
 }
 
 .inner:hover .hover-overlay {
-  visibility: visible;
+  visibility: visible;  
   opacity: 1;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #F9F3EC;
+  color: #333333;
+}
+
+footer {
+  background-color: #F9F3EC;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  color: #0E2A55;
+  font-size: 50px;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+  color: #0E2A55;
+}
+
+h3, h4 {
+  font-family: 'Crimson Text', serif;
+  color: #0E2A55;
+}
+
+h5 {
+  font-family: 'Crimson Text', serif;
+  color: #F9F3EC;
+}
+
+a {
+  color: #B31E1A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B31E1A;
 }
