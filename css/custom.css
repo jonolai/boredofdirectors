@@ -17,13 +17,13 @@ Developed for the people in Brisbane, Australia, July 2020
   padding-top: 10%;
 }
 
-.purpose-section {
-  padding: 2%;
-}
-
-.findings-section {
+.analysis-section {
   padding: 2%;
   text-align: center;
+}
+
+.table-responsive {
+  padding: 2%;
 }
 
 .directors-section {
